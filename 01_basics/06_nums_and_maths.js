@@ -36,10 +36,4 @@ console.log(Math.floor(Math.random() * (max-min+1))+min);
 /*  math.random gives values btw 0 and 1 
 if we add whe we multiply by 10 but sometimes it gives 0.01 so we add +1
 another case is define min and max
-we do (max - min + 1)+min
-
-
-
-
-
-
+we do (max - min + 1)+min*/
