@@ -56,11 +56,37 @@ const  users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+const course = {
+    coursename:"js",
+    price:1000,
+    courseTeacher: "ansh"
+}
+//course.courseTeacher
+
+const {courseTeacher:sir} = course
+
+// console.log(courseTeacher);
+console.log(sir);
+
+//api - apni problems doosre sir
+
+//JSON
+
+// {
+//     "name": "ansh";
+//     "coursename":"js",
+//     "price":"free"
+// }
+
+//in js we first learn how the fetch method works with the help of that we call this url and in resoponse we get this DataTransfer
+//and with the help of bject we will take out data
 
 
 
