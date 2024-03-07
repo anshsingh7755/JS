@@ -62,12 +62,14 @@ const debitcard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
-if (userLoggedIn && debitcard ){
+if (userLoggedIn && debitcard && 2==3){
     console.log("Allow shopping");
 }
 
-// && means both statements true
+// && means all the  statements true
  
 if (loggedInFromEmail || loggedInFromGoogle ){
     console.log("user logged in ");
 }
+
+// if any statement is true then the condition will perform
